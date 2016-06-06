@@ -58,7 +58,9 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjL-yn-uuz">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Hide Red"/>
+                                <state key="normal" title="Hide Red">
+                                    <color key="titleColor" red="0.60784313725490191" green="0.0" blue="0.011764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="toggleRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RIu-fo-p5i"/>
                                 </connections>
